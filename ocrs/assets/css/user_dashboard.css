@@ -1,0 +1,93 @@
+*{
+    padding: 0%!important;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding-left: 0%;
+    display: flex;
+}
+.siderbar{
+    margin: 0%!important;
+    min-width: 15%;
+    max-width: 17%;
+    box-shadow: 10px 10px 07px rgb(206, 199, 199);
+    /* border: 1px solid red; */
+    max-height: 100vh;
+    min-height: 100vh;
+}
+.main-content{
+    flex-basis: 80%;
+    max-width: 80%;
+    margin-left: 30px;
+    margin-top: 1em;
+    padding: 3px;
+}
+
+
+.nav-item{
+    border-bottom: 1px solid rgb(191, 175, 175);
+}
+.nav-item:hover{
+    background-color: gray ;
+    width: 100%;
+}
+.nav-link{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-item:hover .nav-link{
+    color: aliceblue;
+}
+.nav-item:active{
+    color: aliceblue;
+    background-color: gray;
+}
+
+/* grid-box color section start here */
+.grid-box{
+    display: grid;
+    /* grid-template-columns: auto; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 12px;
+}
+.grid-box .grid-item{
+    background-color: rgb(235, 34, 34);
+    padding: 15px 10px;
+    color: white;
+    font-size: 30px;
+}
+.grid-box .grid-item h4{
+    /* text-align: center; */
+    padding-top: 15px;
+}
+.grid-item .row{
+    padding: 0px 17px!important;
+    display: flex;
+    justify-content: space-between;
+}
+#grid-item2{
+    background-color: rgb(42, 42, 134);
+}
+#grid-item3{
+    background-color: rgb(19, 107, 81);
+}
+#grid-item4{
+    background-color: rgb(198, 171, 47);
+}
+
+
+
+
+/* for mobile screen */
+@media screen and (max-width:580px) {
+    .grid-box{
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 10px;
+    }
+
+  
+      
+  }

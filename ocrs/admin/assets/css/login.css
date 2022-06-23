@@ -1,0 +1,40 @@
+.container{
+    width: 30%;
+    margin: 10% auto;
+}
+.container h1{
+    color: rgb(72, 21, 225);
+}
+.container .form-section form{
+    width: 70%;
+    
+}
+.form-section form input{
+    padding: 20px;
+    line-height: 18px;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    background-color: none;
+    border-radius: 20px;
+    margin: 1em auto;
+}
+.form-section input:hover{
+   outline: 2px solid blue;
+}
+.form-section button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 20px;
+    background-color: rgb(205, 21, 21);
+    color: white;
+    border: none;
+    margin-left: 18px;
+}
+button:hover{
+    background-color: rgb(38, 33, 33);
+    color: white;
+}
